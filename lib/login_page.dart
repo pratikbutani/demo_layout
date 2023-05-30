@@ -16,17 +16,17 @@ class _LoginPageState extends State<LoginPage> {
       ),
       body: Column(
         children: [
-          FlutterLogo(
+          const FlutterLogo(
             size: 100,
           ),
-          Padding(
-            padding: const EdgeInsets.all(20.0),
+          const Padding(
+            padding: EdgeInsets.all(20.0),
             child: TextField(
               decoration: InputDecoration(hintText: 'Enter Email'),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.all(20.0),
+          const Padding(
+            padding: EdgeInsets.all(20.0),
             child: TextField(
               decoration: InputDecoration(hintText: 'Enter Password'),
             ),
